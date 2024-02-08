@@ -60,6 +60,7 @@ DEBUG
 
 /* MAIN */
 
+    /* First Section */
 .hero-content{
     background-color: rgb(179, 208, 232);
 }
@@ -96,7 +97,7 @@ DEBUG
 }
 
 
-/* Second Section */
+    /* Second Section */
 
 .main-container{
     max-width: 1030px;
@@ -105,6 +106,10 @@ DEBUG
 }
 
 .main-title{
-    text-align: center;
     border: 1px solid black;
+    margin-top: 50px;
+}
+
+.margin-rgt{
+    margin-right: 50px;
 }
