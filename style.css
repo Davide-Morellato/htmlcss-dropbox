@@ -19,22 +19,42 @@ img{
     max-width: 100%;
 }
 
+body{
+    font-family: 'Advent Pro', sans-serif;
+}
 
-/* DEBUG */
-.debug > *{
+DEBUG
+{
     border: 2px solid black;
     padding: 10px
 }
 
-/* LAYOUT */
+/* HEADER */
 
-.container{
-    width: 1920px;
+.page-header{
+    max-width: 1920px;
     margin: 0 auto;
+    padding: 10px;
 }
 
-.row{
+.nav-bar{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.links > ul{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.button{
+    border: none;
+    color: white;
+    background-color: rgb(0, 97, 255);
+    padding: 5px;
+}
+
+
