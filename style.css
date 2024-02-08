@@ -31,7 +31,7 @@ DEBUG
 
 /* HEADER */
 
-.page-header{
+.page-header, .page-main{
     max-width: 1920px;
     margin: 0 auto;
     padding: 10px;
@@ -57,4 +57,41 @@ DEBUG
     padding: 5px;
 }
 
+
+/* MAIN */
+
+.main-content{
+    background-color: rgb(179, 208, 232);
+}
+
+.main-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-title{
+    font-size: 95px;
+}
+
+.main-nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.main-nav{
+    display: flex;
+}
+
+.main-freetrial{
+    flex-basis: calc(100% / 3)
+}
+
+.margin-btm{
+    margin-bottom: 90px;
+}
+
+.arrow-size{
+    font-size: 70px;
+}
 
