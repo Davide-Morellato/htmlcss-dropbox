@@ -60,38 +60,51 @@ DEBUG
 
 /* MAIN */
 
-.main-content{
+.hero-content{
     background-color: rgb(179, 208, 232);
 }
 
-.main-container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.main-title{
-    font-size: 95px;
-}
-
-.main-nav{
+.hero-container{
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px;
 }
 
-.main-nav{
+.hero-title{
+    font-size: 95px;
+    padding: 50px 0;
+}
+
+.hero-nav{
     display: flex;
 }
 
-.main-freetrial{
+.hero-freetrial{
     flex-basis: calc(100% / 3)
 }
 
 .margin-btm{
-    margin-bottom: 90px;
+    margin-bottom: 70px;
 }
 
 .arrow-size{
     font-size: 70px;
 }
 
+.hero-img{
+    width: 100%;
+}
+
+
+/* Second Section */
+
+.main-container{
+    max-width: 1030px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.main-title{
+    text-align: center;
+    border: 1px solid black;
+}
