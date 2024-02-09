@@ -76,8 +76,8 @@ body{
     display: flex;
 }
 
-.hero-freetrial{
-    flex-basis: calc(100% / 3)
+.col-4{
+    width: calc(4 * 100% / 12);
 }
 
 .margin-btm{
@@ -113,10 +113,6 @@ body{
 .row{
     display: flex;
     flex-wrap:wrap;
-}
-
-.col-4{
-    width: calc(4 * 100% / 12);
 }
 
 .card{
