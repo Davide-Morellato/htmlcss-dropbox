@@ -121,7 +121,7 @@ body{
     padding: 0 20px;
 }
 
-.card-header, .card-section{
+.border{
     border: 1px solid black;
 }
 
@@ -131,7 +131,7 @@ body{
 }
 
 .card-section{
-    padding: 0 20px
+    padding: 10px 35px
 }
 
 .col-12{
@@ -151,6 +151,10 @@ body{
     padding: 5px 3px;
 }
 
+.w-100{
+    width: 100%;
+}
+
 .decoration-link{
     text-decoration: underline;
     color: blue;
@@ -168,13 +172,15 @@ body{
 
 .card-body{
     display: flex;
-    border: 1px solid black;
 }
 
-.col-9, .col-3{
+.pad-35{
+    padding: 20px 35px;
+}
+
+.pad-20{
     padding: 20px;
 }
-
 
 /* Third Section */
 
@@ -190,14 +196,12 @@ body{
     margin-top: 30px;
 }
 
-.col-9{
+.col-8{
     flex-basis: calc(8 * 100% / 12);
-    padding: 30px;
 }
 
 .col-4{
     width: calc(4 * 100% / 12);
-    padding: 45px;
 }
 
 .partner-button{
@@ -207,4 +211,22 @@ body{
     padding: 10px;
     font-size: 15px;
     margin-top: 30px;
+}
+
+
+/* Fourth Section */
+
+.card-content p{
+    padding-top: 20px;
+}
+
+.pad-btm{
+    padding-bottom: 20px;
+}
+
+
+/* Fifth Section */
+
+.m-top{
+    margin-top: 100px;
 }
