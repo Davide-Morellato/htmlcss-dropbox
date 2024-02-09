@@ -23,11 +23,6 @@ body{
     font-family: 'Advent Pro', sans-serif;
 }
 
-DEBUG
-{
-    border: 2px solid black;
-    padding: 10px
-}
 
 /* HEADER */
 
@@ -98,7 +93,12 @@ DEBUG
 }
 
 
-    /* Second Section */
+/* Second Section */
+
+.main-content,
+.main-radio-button{
+    padding-top: 50px;
+}
 
 .main-container{
     max-width: 1030px;
@@ -106,36 +106,45 @@ DEBUG
     padding: 10px;
 }
 
-.main-title{
-    margin-top: 50px;
-}
-
 .margin-rgt{
     margin-right: 50px;
 }
 
-.flex{
+.row{
     display: flex;
     flex-wrap:wrap;
-    justify-content: space-between;
-    margin-top: 50px;
 }
 
-.main-card{
-    width: 320px;
+.col-4{
+    width: calc(4 * 100% / 12);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.card-header, .card-section{
     border: 1px solid black;
 }
 
-.card-title{
-    border-bottom: 1px solid black;
+.card-header{
     text-align: center;
     padding: 10px 0;
 }
 
-.card-content{
-    padding: 20px 35px;
-    display: flex;
-    flex-direction: column;
+.card-section{
+    padding: 0 20px
+}
+
+.col-12{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.card-section-title > *{
+    padding: 5px 0;
 }
 
 .icon{
@@ -161,22 +170,11 @@ DEBUG
     color:  rgb(0, 97, 255);
 }
 
-.sec-container{
-    border: 1px solid black;
-    padding: 10px 0;
-    margin-top: 50px;
-}
-
-.txt-center{
-    text-align: center;
-}
-
-.sec-nav{
+.card-body{
     display: flex;
-    padding: 30px;
-    border-top: 1px solid black;
+    border: 1px solid black;
 }
 
-.office{
-    margin-left: auto;
+.col-9, .col-3{
+    padding: 20px;
 }
