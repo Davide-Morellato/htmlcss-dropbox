@@ -115,10 +115,9 @@ body{
     flex-wrap:wrap;
 }
 
-.card{
-    display: flex;
-    flex-direction: column;
+.card{    
     padding: 0 20px;
+    height: 100%;     /* non funziona, perchè?*/
 }
 
 .border{
@@ -131,7 +130,7 @@ body{
 }
 
 .card-section{
-    padding: 10px 35px
+    padding: 10px 35px;
 }
 
 .col-12{
@@ -198,10 +197,6 @@ body{
 
 .col-8{
     flex-basis: calc(8 * 100% / 12);
-}
-
-.col-4{
-    width: calc(4 * 100% / 12);
 }
 
 .partner-button{
