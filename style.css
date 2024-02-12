@@ -110,18 +110,22 @@ body{
     margin-right: 50px;
 }
 
+.pad{
+    padding: 0 20px;
+}
+
 .row{
     display: flex;
     flex-wrap:wrap;
 }
 
 .card{    
-    padding: 0 20px;
-    height: 100%;     /* non funziona, perchè?*/
+    height: 100%;
+    border: 1px solid black;
 }
 
-.border{
-    border: 1px solid black;
+.border-btm{
+    border-bottom: 1px solid black;
 }
 
 .card-header{
