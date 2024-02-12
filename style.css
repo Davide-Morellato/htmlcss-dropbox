@@ -27,7 +27,7 @@ body{
 /* HEADER */
 
 .page-header, .page-main{
-    max-width: 1920px;
+    max-width: 1910px;
     margin: 0 auto;
     padding: 10px;
 }
@@ -62,7 +62,7 @@ body{
 }
 
 .hero-container{
-    max-width: 1200px;
+    max-width: 1190px;
     margin: 0 auto;
     padding: 10px;
 }
@@ -101,7 +101,7 @@ body{
 }
 
 .main-container{
-    max-width: 1030px;
+    max-width: 1020px;
     margin: 0 auto;
     padding: 10px;
 }
@@ -121,11 +121,14 @@ body{
 
 .card{    
     height: 100%;
-    border: 1px solid black;
+}
+
+.border{
+    border: 1px solid rgb(229, 229, 231);
 }
 
 .border-btm{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(229, 229, 231) ;
 }
 
 .card-header{
@@ -163,10 +166,13 @@ body{
     color: blue;
 }
 
-.line{
-    width: 26px;
-    border-top: 1px solid black;
-    margin: 20px 0;
+.card-section-list::after{
+    content: ' ';
+    display: block;
+    margin: 10px 0;
+    width: 40px;
+    background-color: rgb(229, 229, 231);
+    height: 1px;
 }
 
 .blue-check{
@@ -191,8 +197,12 @@ body{
     margin-top: 100px;
 }
 
+.pad-30{
+    padding: 30px;
+}
+
 .col-4_title{
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .col-4_title > p{
@@ -219,13 +229,130 @@ body{
     padding-top: 20px;
 }
 
-.pad-btm{
-    padding-bottom: 20px;
-}
-
 
 /* Fifth Section */
 
 .m-top{
     margin-top: 100px;
+}
+
+
+/* Sixth Section */
+
+.page-school-section{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.col-6{
+    width: 50%;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.green{
+    border: 15px solid rgb(208, 233, 206);
+    background-color: rgb(162, 211, 155);
+}
+
+.filter-white{
+    width: 50%;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(43deg) brightness(102%) contrast(101%);
+}
+
+.bloody{
+    background-color: rgb(97, 8, 43);
+}
+
+.petrol{
+    background-color: rgb(0, 147, 206);
+}
+
+.red{
+    background-color: rgb(255, 28, 28);
+}
+
+.central-col{
+    background-color: rgb(245, 245, 245);
+    padding: 25px;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.designit::after{
+    content: ' ';
+    display: block;
+    margin: 15px 0;
+    width: 104px;
+    background-color: black;
+    height: 1px;
+}
+
+.pad-tb{
+    padding: 10px 0;
+}
+
+.cyan-gray{
+    background-color: rgb(179, 208, 232);
+}
+
+.blue{
+   background-color: rgb(13, 36, 129);
+}
+
+.pikachu{
+    background-color: rgb(255, 216, 49);
+}
+
+
+/* Seventh Section */
+
+.bring-in-section{
+    padding: 100px 0;
+}
+
+.jc-sb{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.font-bloody{
+    color: rgb(97, 8, 43);
+}
+
+.business-button{
+    border: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+/* Eighth Section */
+
+.jc-pad{
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pad-50{
+    padding: 50px 0;
+}
+
+.col-10{
+    width: calc(8 * 100% / 12);
+}
+
+.margin-20{
+   margin-right: 20px; 
+}
+
+.size-sm{
+    font-size: small;
 }
